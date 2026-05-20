@@ -1,13 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
-@import "tailwindcss";
-
-@theme {
-  --color-primary: #6366f1;
-  --color-secondary: #8b5cf6;
-  --color-accent: #f59e0b;
-  --color-dark: #0f172a;
-  --color-darker: #020617;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 @layer base {
   body {
